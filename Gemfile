@@ -1,13 +1,11 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.1'
+gem 'rails', '3.2.10'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
+gem 'sqlite3', '1.3.6'
 
-group :development do
-  gem 'sqlite3', '1.3.5'
-end
 
 
 # Gems used only for assets and not required
